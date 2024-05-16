@@ -2,7 +2,7 @@ import pandas as pd
 from tkinter import * # type: ignore
 
 # Load data from CSV files using Pandas
-movies_df = pd.read_csv('C:/Users/Samsung/Desktop/Gabriel/Projetos para Portfólio/Python/Sistema de Recomendação de Filmes e Livros/ml-latest-small/movies.csv')
+movies_df = pd.read_csv('C:/Users/Samsung/Desktop/Gabriel/Projetos para Portfólio/Python/Sistema de Recomendação de Filmes e Livros/csv/movies.csv')
 
 # Function to recommend movies for a user
 def recommend_movies(user_id):
